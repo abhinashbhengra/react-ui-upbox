@@ -10,10 +10,14 @@ const SectionTwo = () => {
       <div className="subscription">
         <div className="planOne">
           <h2 className="subsMonth">Monthly</h2>
-          <p></p>
-          <p></p>
+          <p> $18</p>
+          <button>Find your box</button>
         </div>
-        <div className="planeTwo"></div>
+        <div className="planeTwo">
+          <h2 className="subsMonth">Yearly</h2>
+          <p> $15/mo</p>
+          <button>Find your box</button>
+        </div>
       </div>
       <div>
         <p>
@@ -30,4 +34,7 @@ export default SectionTwo;
 const Wrapper = styled.div`
   margin: 70px 85px;
   text-align: center;
+  .subscription {
+    display: flex;
+  }
 `;
