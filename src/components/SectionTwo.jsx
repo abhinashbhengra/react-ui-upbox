@@ -10,7 +10,7 @@ const SectionTwo = () => {
       <div className="subscription">
         <div className="planOne">
           <h2 className="subsMonth">Monthly</h2>
-          <p> $18</p>
+          <p> $18/mo</p>
           <button>Find your box</button>
         </div>
         <div className="planeTwo">
