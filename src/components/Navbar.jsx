@@ -40,6 +40,7 @@ const Wrapper = styled.div`
   /* width: 100%; */
   .topbar {
     img {
+      width: 100%;
       position: absolute;
       top: -10;
       height: 10px;
