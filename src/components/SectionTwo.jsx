@@ -14,7 +14,7 @@ const SectionTwo = () => {
           <button>Find your box</button>
         </div>
         <div className="planeTwo">
-          <h2 className="subsMonth">Yearly</h2>
+          <h2 className="subsYear">Yearly</h2>
           <p> $15/mo</p>
           <button>Find your box</button>
         </div>
@@ -36,5 +36,25 @@ const Wrapper = styled.div`
   text-align: center;
   .subscription {
     display: flex;
+    justify-content: center;
+    gap: 120px;
+    .planOne {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 575px;
+      height: 291px;
+      border: 2px solid #efefef;
+    }
+    .planeTwo {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      /* align-items: center; */
+      width: 575px;
+      height: 291px;
+      border: 2px solid #efefef;
+    }
   }
 `;
