@@ -50,7 +50,7 @@ const Wrapper = styled.div`
     .planeTwo {
       display: flex;
       flex-direction: column;
-      justify-content: center;
+      /* justify-content: center; */
       align-items: center;
       width: 575px;
       height: 291px;
